@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+
+    <RootNamespace>HARAnalyzerV4</RootNamespace>
+    <AssemblyName>HARAnalyzerV4</AssemblyName>
+
+    <!-- Icon embedded in the EXE -->
+    <ApplicationIcon>HARIco.ico</ApplicationIcon>
+
+    <Product>HAR Analyzer V4</Product>
+    <AssemblyTitle>HAR Analyzer V4</AssemblyTitle>
+    <Description>HAR analysis, selected-frame export, SAZ conversion, statistics and timeline</Description>
+
+    <Company>PhoeNIXBird Networks</Company>
+    <Authors>Andrei-Emilian Rachita</Authors>
+    <Copyright>Copyright © 2026 PhoeNIXBird Networks. All rights reserved.</Copyright>
+
+    <Version>4.0.0</Version>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <FileVersion>4.0.0.0</FileVersion>
+    <InformationalVersion>4.0.0</InformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Icon embedded as a WPF resource -->
+    <None Remove="HARIco.ico"/>
+    <Resource Include="HARIco.ico"/>
+  </ItemGroup>
+
+</Project>
